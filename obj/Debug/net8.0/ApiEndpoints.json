@@ -1,0 +1,326 @@
+[
+  {
+    "ContainingType": "Project_6_final.Controllers.AddressController",
+    "Method": "AddAddress",
+    "RelativePath": "api/Address/addaddress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addAddressDTO",
+        "Type": "Project_6_final.DTOs.AddAddressDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AddressController",
+    "Method": "UpdateAddress",
+    "RelativePath": "api/Address/updateaddress",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateAddressDTO",
+        "Type": "Project_6_final.DTOs.UpdateAddressDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AttendanceController",
+    "Method": "GetAllUsersAttendance",
+    "RelativePath": "api/Attendance/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.ContactController",
+    "Method": "AddContact",
+    "RelativePath": "api/Contact/addcontact",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addContactDTO",
+        "Type": "Project_6_final.DTOs.AddContactDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.ContactController",
+    "Method": "UpdateContact",
+    "RelativePath": "api/Contact/updatecontact",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateContactDTO",
+        "Type": "Project_6_final.DTOs.UpdateContactDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.UsersController",
+    "Method": "PasswordRecovery",
+    "RelativePath": "api/Users/changepassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Project_6_final.DTOs.PasswordRecoveryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.UsersController",
+    "Method": "Logout",
+    "RelativePath": "api/Users/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.UsersController",
+    "Method": "PasswordRecovery",
+    "RelativePath": "api/Users/password-recovery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Project_6_final.DTOs.PasswordRecoveryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.UsersController",
+    "Method": "ViewProfile",
+    "RelativePath": "api/Users/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDto",
+        "Type": "Project_6_final.DTOs.UserRegistrationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.UsersController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Users/updateprofile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "profileUpdateDTO",
+        "Type": "Project_6_final.DTOs.UserUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AdminController",
+    "Method": "GetAttendaceDetails",
+    "RelativePath": "getallattendance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AdminController",
+    "Method": "GetAllMembers",
+    "RelativePath": "getallusersdetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AttendanceController",
+    "Method": "GetUserAttendanceReport",
+    "RelativePath": "getmonthlyattendancereport",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Month",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AttendanceController",
+    "Method": "GetAttendance",
+    "RelativePath": "getmyattendance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AuthorizationController",
+    "Method": "LoginUserAsync",
+    "RelativePath": "login-user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUser",
+        "Type": "Project_6_final.DTOs.LoginUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AuthorizationController",
+    "Method": "LogoutUserAsync",
+    "RelativePath": "logout-user",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AttendanceController",
+    "Method": "AddAttendance",
+    "RelativePath": "markattendance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AdminController",
+    "Method": "RegularizationApproval",
+    "RelativePath": "regularizationapproval",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "adminRegularizationDTO",
+        "Type": "Project_6_final.DTOs.AdminRegularizationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AttendanceController",
+    "Method": "RequestRegularization",
+    "RelativePath": "requestregularization",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "attendanceId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "addRegularizationDTO",
+        "Type": "Project_6_final.DTOs.AddRegularizationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AdminController",
+    "Method": "RequestRegularizationForMember",
+    "RelativePath": "requestregularizationformember",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "attendanceId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "addRegularizationDTO",
+        "Type": "Project_6_final.DTOs.AddRegularizationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Project_6_final.Controllers.AdminController",
+    "Method": "RegisterUserAsync",
+    "RelativePath": "user-registeration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userDetails",
+        "Type": "Project_6_final.DTOs.UserRegistrationDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
