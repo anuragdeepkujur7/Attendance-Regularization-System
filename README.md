@@ -5,7 +5,19 @@
 This project is an enhancement of the User Management System developed in Project 5. It provides a complete Attendance Management and Regularization solution built using ASP.NET Core Web API, Entity Framework Core, MySQL, JWT Authentication, and Role-Based Authorization.
 
 The system enables administrators and users to manage attendance records efficiently while maintaining secure access control through role-based permissions.
+## Documentation
 
+Detailed project documentation is available here:
+
+[Process Flow Documentation](Documentation/Process%20Flow%20Documentation.rtf)
+
+## Swagger UI
+
+![Swagger UI](Screenshots/Swagger.png)
+
+## Registration Endpoint
+
+![DB](Screenshots/EER.png)
 ## Features
 
 ### Authentication & Authorization
