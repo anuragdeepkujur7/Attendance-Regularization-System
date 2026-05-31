@@ -1,0 +1,32 @@
+# Build Results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+
+# User-specific files
+*.user
+*.suo
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Environment files
+appsettings.Development.json
+
+# Packages
+packages/
+
+# Publish output
+publish/
+
+# ReSharper
+_ReSharper*
+
+# SQL Server LocalDB
+*.mdf
+*.ldf

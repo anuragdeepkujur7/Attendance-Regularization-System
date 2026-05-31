@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Interbiz\\Anurag\\Project 6\\Project 6 final\\Project 6 final\\Project 6 final.csproj": {}
+    "G:\\Interbiz\\Anurag\\Project 6 Final\\Project 6 final.csproj": {}
   },
   "projects": {
-    "G:\\Interbiz\\Anurag\\Project 6\\Project 6 final\\Project 6 final\\Project 6 final.csproj": {
+    "G:\\Interbiz\\Anurag\\Project 6 Final\\Project 6 final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Interbiz\\Anurag\\Project 6\\Project 6 final\\Project 6 final\\Project 6 final.csproj",
+        "projectUniqueName": "G:\\Interbiz\\Anurag\\Project 6 Final\\Project 6 final.csproj",
         "projectName": "Project 6 final",
-        "projectPath": "G:\\Interbiz\\Anurag\\Project 6\\Project 6 final\\Project 6 final\\Project 6 final.csproj",
+        "projectPath": "G:\\Interbiz\\Anurag\\Project 6 Final\\Project 6 final.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "G:\\Interbiz\\Anurag\\Project 6\\Project 6 final\\Project 6 final\\obj\\",
+        "outputPath": "G:\\Interbiz\\Anurag\\Project 6 Final\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
